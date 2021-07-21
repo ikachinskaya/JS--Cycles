@@ -81,3 +81,32 @@ do {
 } while (count2 <= 100);
 console.log(summa2);
 console.log("==================");
+
+alert("Задание 4");
+alert("while");
+const result = 6;
+while (true) {
+  let resultUser = +prompt("Решите пример: 2+2*2");
+  if (resultUser === result) {
+    break;
+  }
+}
+
+alert("do while");
+const result1 = 6;
+do {
+  let resultUser1 = +prompt("Решите пример: 2+2*2");
+  if (resultUser1 === result1) {
+    break;
+  }
+} while (true);
+
+alert("for");
+const MAX_TRIES = 6;
+let result2 = 6;
+for (let i = 0; i < MAX_TRIES; i++) {
+  let resultUser2 = +prompt("Решите пример: 2+2*2");
+  if (resultUser2 === result2) {
+    break;
+  }
+}
