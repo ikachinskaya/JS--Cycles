@@ -110,3 +110,11 @@ for (let i = 0; i < MAX_TRIES; i++) {
     break;
   }
 }
+
+let result3 = 6;
+for (let i = 0; ; ) {
+  let resultUser3 = +prompt("Решите пример: 2+2*2");
+  if (resultUser3 === result3) {
+    break;
+  }
+}
